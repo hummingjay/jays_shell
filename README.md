@@ -1,3 +1,3 @@
-**Jay's Shell
+__Jay's Shell <b />__
 *This is about making my Shell succesfully before the actual learning one*
 **This is Just a practice run and learning area for shell stuff **
