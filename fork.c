@@ -13,7 +13,7 @@ int main(void)
 
 	printf("Here I am before I'm forked\n");
 
-	fork();
+	pid = fork();
 
 	if (pid == -1)
 	{
@@ -21,7 +21,7 @@ int main(void)
 		return (1);
 	}
 
-	printf("I'm forked up :)\n");
+	printf("I'm forked up :!\n");
 
 	return (0);
 }
