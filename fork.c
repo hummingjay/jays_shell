@@ -16,11 +16,11 @@ int main()
 	
 	if (pid == -1)
 	{
-		perror("Sucks, but it failed");
+		perror("Sucks, but it failed\n");
 		return (1);
 	}
 
-	printf("I'm forked up :)");
+	printf("I'm forked up :)\n");
 
 	return (0);
 }

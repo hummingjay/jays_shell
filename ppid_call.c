@@ -1,7 +1,6 @@
 #include <unistd.h>
 #include <stdio.h>
 #include <sys/types.h>
-#include <string.h>
 /**
  * main - program that prints out the ppid and pid of the
  * prog
@@ -19,7 +18,7 @@ int main(void)
 	printf("The pid is %u\n", pid);
 
 	ppid = getppid();
-	printf("The ppid is %s\n", ppid);
+	printf("The ppid is %u\n", ppid);
 
 	return (0);
 }
