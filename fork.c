@@ -6,14 +6,15 @@
  *
  * Return: 0
  */
-int main()
+int main(void)
 {
 	/*define variable*/
 	pid_t pid;
+
 	printf("Here I am before I'm forked\n");
 
 	fork();
-	
+
 	if (pid == -1)
 	{
 		perror("Sucks, but it failed\n");
