@@ -15,10 +15,10 @@ int main(void)
 	/*buffer*/
 	char *buf = malloc(sizeof(char) * n);
 
-	printf("Insert name ");
+	printf("$");
 	getline(&buf, &n, stdin);
 
-	printf("Name is%s\n Buffer size is %ld\n", buf, n);
+	printf("%s\n Buffer size is %ld\n", buf, n);
 
 	free(buf);
 
