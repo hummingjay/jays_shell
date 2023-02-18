@@ -12,7 +12,7 @@ int main(void)
 {
 	/*Assigning memory for this*/
 	size_t n = 7;
-	/*buffer*/
+	/*buffer, can assign NUll leave getline to assign memory*/
 	char *buf = malloc(sizeof(char) * n);
 
 	printf("$");
